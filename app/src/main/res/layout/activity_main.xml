@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.penghe.www.flowlayoutlibrary.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" >
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello"/>
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello,hi" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="你是我的"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello,man" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="helloview" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="view" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="我是你的"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="he" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="textview" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="view" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello,view" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hello,mt" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hel" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hel" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hel2" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hel2" />
+
+        <TextView
+            style="@style/flow_layout_text_flag"
+            android:text="hel2" />
+    </com.penghe.www.flowlayoutlibrary.FlowLayout>
+
+</LinearLayout>

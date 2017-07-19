@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFrames.iml" filepath="$PROJECT_DIR$/MyFrames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleprogressbarlibrary/circleprogressbarlibrary.iml" filepath="$PROJECT_DIR$/circleprogressbarlibrary/circleprogressbarlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" filepath="$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" filepath="$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" filepath="$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" filepath="$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" />
+    </modules>
+  </component>
+</project>
