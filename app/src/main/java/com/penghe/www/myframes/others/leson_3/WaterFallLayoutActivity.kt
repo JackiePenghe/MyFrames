@@ -80,7 +80,7 @@ class WaterFallLayoutActivity : BaseAppcompatActivity() {
         waterfallLayout.addView(imageView, layoutParams)
 
         waterfallLayout.setOnItemClickListener {
-            view, index ->
+            _, index ->
             Toast.makeText(this@WaterFallLayoutActivity, "item=" + index, Toast.LENGTH_SHORT).show()
         }
     }

@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" filepath="$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" />
       <module fileurl="file://$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" filepath="$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" filepath="$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/histogramviewlibrary/histogramviewlibrary.iml" filepath="$PROJECT_DIR$/histogramviewlibrary/histogramviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" filepath="$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" />
     </modules>
   </component>

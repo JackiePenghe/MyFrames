@@ -7,7 +7,8 @@ import android.view.View
 import cn.almsound.www.baselibrary.BaseDrawerActivity
 import com.penghe.www.myframes.R
 import com.penghe.www.myframes.others.GoogleMapActivity
-import com.penghe.www.myframes.others.Leson_2.FlowLayoutActivity
+import com.penghe.www.myframes.others.HistogramActivity
+import com.penghe.www.myframes.others.leson_2.FlowLayoutActivity
 import com.penghe.www.myframes.others.leson_3.CircleProgressBarActivity
 import com.penghe.www.myframes.others.leson_3.WaterFallLayoutActivity
 
@@ -112,26 +113,29 @@ class HomeActivity : BaseDrawerActivity() {
             R.id.flow_layout -> {
                 intent = Intent(this@HomeActivity, FlowLayoutActivity::class.java)
             }
-            R.id.water_fall_layout ->{
+            R.id.water_fall_layout -> {
                 intent = Intent(this@HomeActivity, WaterFallLayoutActivity::class.java)
             }
-            R.id.sidebar ->{
+            R.id.sidebar -> {
                 //TODO 未完成
                 intent = null
             }
-            R.id.circle_progress_bar ->{
+            R.id.circle_progress_bar -> {
                 intent = Intent(this@HomeActivity, CircleProgressBarActivity::class.java)
             }
 
-            //其他
-            R.id.google_map ->{
-                intent = Intent(this@HomeActivity,GoogleMapActivity::class.java)
+        //其他
+            R.id.google_map -> {
+                intent = Intent(this@HomeActivity, GoogleMapActivity::class.java)
             }
-            else ->{
+            R.id.histogram -> {
+                intent = Intent(this@HomeActivity, HistogramActivity::class.java)
+            }
+            else -> {
                 intent = null
             }
         }
-        if (intent != null){
+        if (intent != null) {
             startActivity(intent)
             menuItemId = 0
         }

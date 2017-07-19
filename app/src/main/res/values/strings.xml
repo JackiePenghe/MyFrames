@@ -7,4 +7,6 @@
     <string name="sidebar">酷炫侧边栏</string>
     <string name="circle_progress_bar">圆形进度条</string>
     <string name="google_map">谷歌地图</string>
+    <string name="histogram">柱状图</string>
+    <string name="other">其他</string>
 </resources>

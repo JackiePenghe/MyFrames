@@ -11,7 +11,6 @@ import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
@@ -20,11 +19,11 @@ import java.util.Locale;
 
 /**
  * Created by pengh on 2017/7/15.
+ * 自定义圆形进度条
  */
 
 public class CircleProgressBar extends View {
 
-    private static final String TAG = "CircleProgressBar";
     //这个圆形进度条的最小宽度
     private double minWidth;
     //这个圆形进度条的最小高度
@@ -49,20 +48,43 @@ public class CircleProgressBar extends View {
     private boolean showText;
     private RectF rectF;
 
+    /**
+     * 构造器
+     *
+     * @param context 上下文
+     */
     public CircleProgressBar(Context context) {
         this(context, null);
     }
 
+    /**
+     * 构造器
+     *
+     * @param context 上下文
+     * @param attrs   属性
+     */
     public CircleProgressBar(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
+    /**
+     * 构造器
+     *
+     * @param context      上下文
+     * @param attrs        属性
+     * @param defStyleAttr 默认属性
+     */
     public CircleProgressBar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initial();
         getAttributeSet(attrs);
     }
 
+    /**
+     * 获取并属性
+     *
+     * @param attrs 属性
+     */
     private void getAttributeSet(AttributeSet attrs) {
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.circle_progress_bar);
         maxProgress = typedArray.getFloat(R.styleable.circle_progress_bar_max_progress, 100);
@@ -75,6 +97,9 @@ public class CircleProgressBar extends View {
         typedArray.recycle();
     }
 
+    /**
+     * 初始化
+     */
     private void initial() {
         WindowManager windowManager = (WindowManager) getContext().getSystemService(Context.WINDOW_SERVICE);
         Point point = new Point();
@@ -85,6 +110,12 @@ public class CircleProgressBar extends View {
         paint = new Paint();
     }
 
+    /**
+     * 测量控件宽度
+     *
+     * @param widthMeasureSpec  宽度的规格
+     * @param heightMeasureSpec 高度的规格
+     */
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
@@ -113,15 +144,22 @@ public class CircleProgressBar extends View {
                 break;
         }
 
+        //判断宽高,以最小的为准(正方形)
         if (widthSize < heightSize) {
+            //noinspection SuspiciousNameCombination
             heightSize = widthSize;
         } else {
+            //noinspection SuspiciousNameCombination
             widthSize = heightSize;
         }
 
         setMeasuredDimension(widthSize, heightSize);
     }
 
+    /**
+     * 绘制
+     * @param canvas 画布
+     */
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -142,9 +180,9 @@ public class CircleProgressBar extends View {
             paint.setTextSize(textSize);
             paint.setTypeface(Typeface.DEFAULT_BOLD);
             double percent = progress * 1.0 / maxProgress * 100;
-            String percenterString = String.format(Locale.getDefault(), "%.2f", percent) + "%";
+            String percentString = String.format(Locale.getDefault(), "%.2f", percent) + "%";
             Paint.FontMetrics fontMetrics = paint.getFontMetrics();
-            canvas.drawText(percenterString, getWidth() / 2 - paint.measureText(percenterString) / 2, getWidth() / 2 + (fontMetrics.bottom - fontMetrics.top) / 2 - fontMetrics.bottom, paint);
+            canvas.drawText(percentString, getWidth() / 2 - paint.measureText(percentString) / 2, getWidth() / 2 + (fontMetrics.bottom - fontMetrics.top) / 2 - fontMetrics.bottom, paint);
         }
 
         //画圆弧（进度）

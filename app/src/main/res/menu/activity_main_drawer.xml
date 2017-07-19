@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-        <item
-            android:id="@+id/flow_layout"
-            android:title="@string/flow_layout" />
-        <item
-            android:id="@+id/water_fall_layout"
-            android:title="@string/water_fall_layout" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/flow_layout"
+        android:title="@string/flow_layout" />
+    <item
+        android:id="@+id/water_fall_layout"
+        android:title="@string/water_fall_layout" />
 
-        <item
-            android:id="@+id/sidebar"
-            android:title="@string/sidebar" />
+    <item
+        android:id="@+id/sidebar"
+        android:title="@string/sidebar" />
 
-        <item
-            android:id="@+id/circle_progress_bar"
-            android:title="@string/circle_progress_bar" />
+    <item
+        android:id="@+id/circle_progress_bar"
+        android:title="@string/circle_progress_bar" />
 
-    <group>
-        <item
-            android:id="@+id/google_map"
-            android:title="@string/google_map" />
+    <item
+        android:title="@string/other"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/google_map"
+                android:title="@string/google_map" />
 
-        <item
-            android:title="sample" />
+            <item
+                android:id="@+id/histogram"
+                android:title="@string/histogram" />
 
-        <item
-            android:title="sample" />
-    </group>
+            <item android:title="sample" />
+        </menu>
+    </item>
 </menu>
