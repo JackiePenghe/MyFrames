@@ -1,2 +1,2 @@
-include ':app', ':flowlayoutlibrary', ':baselibrary', ':waterfalllayoutlibrary', ':circleprogressbarlibrary',
+include ':app', ':flowlayoutlibrary', ':baselibrary', ':waterfalllayoutlibrary', ':circleprogressbarlibrary', ':chartlibrary', ':googlemaps',
         ':fabnavagationview', ':googlemapsapi', ':histogramviewlibrary'

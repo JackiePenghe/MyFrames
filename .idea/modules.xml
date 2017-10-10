@@ -5,9 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/MyFrames.iml" filepath="$PROJECT_DIR$/MyFrames.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chartlibrary/chartlibrary.iml" filepath="$PROJECT_DIR$/chartlibrary/chartlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/circleprogressbarlibrary/circleprogressbarlibrary.iml" filepath="$PROJECT_DIR$/circleprogressbarlibrary/circleprogressbarlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" filepath="$PROJECT_DIR$/fabnavagationview/fabnavagationview.iml" />
       <module fileurl="file://$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" filepath="$PROJECT_DIR$/flowlayoutlibrary/flowlayoutlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googlemaps/googlemaps.iml" filepath="$PROJECT_DIR$/googlemaps/googlemaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" filepath="$PROJECT_DIR$/googlemapsapi/googlemapsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/histogramviewlibrary/histogramviewlibrary.iml" filepath="$PROJECT_DIR$/histogramviewlibrary/histogramviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" filepath="$PROJECT_DIR$/waterfalllayoutlibrary/waterfalllayoutlibrary.iml" />

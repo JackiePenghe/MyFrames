@@ -10,9 +10,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baselibrary" />
+            <option value="$PROJECT_DIR$/chartlibrary" />
             <option value="$PROJECT_DIR$/circleprogressbarlibrary" />
             <option value="$PROJECT_DIR$/fabnavagationview" />
             <option value="$PROJECT_DIR$/flowlayoutlibrary" />
+            <option value="$PROJECT_DIR$/googlemaps" />
             <option value="$PROJECT_DIR$/googlemapsapi" />
             <option value="$PROJECT_DIR$/histogramviewlibrary" />
             <option value="$PROJECT_DIR$/waterfalllayoutlibrary" />

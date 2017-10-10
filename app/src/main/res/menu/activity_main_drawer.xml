@@ -28,7 +28,9 @@
                 android:id="@+id/histogram"
                 android:title="@string/histogram" />
 
-            <item android:title="sample" />
+            <item
+                android:id="@+id/chart"
+                android:title="@string/chart" />
         </menu>
     </item>
 </menu>

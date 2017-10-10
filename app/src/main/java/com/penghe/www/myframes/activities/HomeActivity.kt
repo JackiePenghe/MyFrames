@@ -6,12 +6,14 @@ import android.view.MenuItem
 import android.view.View
 import cn.almsound.www.baselibrary.BaseDrawerActivity
 import com.penghe.www.myframes.R
+import com.penghe.www.myframes.others.ChartActivity
 import com.penghe.www.myframes.others.GoogleMapActivity
 import com.penghe.www.myframes.others.HistogramActivity
 import com.penghe.www.myframes.others.leson_2.FlowLayoutActivity
 import com.penghe.www.myframes.others.leson_3.CircleProgressBarActivity
 import com.penghe.www.myframes.others.leson_3.WaterFallLayoutActivity
 
+@Suppress("UseExpressionBody")
 class HomeActivity : BaseDrawerActivity() {
 
     private var menuItemId: Int = 0
@@ -117,7 +119,6 @@ class HomeActivity : BaseDrawerActivity() {
                 intent = Intent(this@HomeActivity, WaterFallLayoutActivity::class.java)
             }
             R.id.sidebar -> {
-                //TODO 未完成
                 intent = null
             }
             R.id.circle_progress_bar -> {
@@ -130,6 +131,9 @@ class HomeActivity : BaseDrawerActivity() {
             }
             R.id.histogram -> {
                 intent = Intent(this@HomeActivity, HistogramActivity::class.java)
+            }
+            R.id.chart ->{
+                intent = Intent(this@HomeActivity, ChartActivity::class.java)
             }
             else -> {
                 intent = null

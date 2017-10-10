@@ -11,7 +11,7 @@ import cn.almsound.www.baselibrary.BaseWelcomeActivity
 
 class WelcomeActivity : BaseWelcomeActivity() {
     override fun doAfterAnimation() {
-        //        Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
+        //        Intent intent = new Intent(WelcomeActivity.this, ChartActivity.class);
         val intent = Intent(this@WelcomeActivity, HomeActivity::class.java)
 
         startActivity(intent)

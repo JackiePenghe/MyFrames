@@ -9,4 +9,5 @@
     <string name="google_map">谷歌地图</string>
     <string name="histogram">柱状图</string>
     <string name="other">其他</string>
+    <string name="chart">图表</string>
 </resources>

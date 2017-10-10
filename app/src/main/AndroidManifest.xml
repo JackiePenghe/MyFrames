@@ -38,7 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity android:name=".activities.MainActivity" /> -->
+        <!-- <activity android:name=".activities.ChartActivity" /> -->
         <activity
             android:name=".activities.guide.WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar.FullScreen" />
@@ -66,6 +66,21 @@
             android:theme="@style/AppTheme" />
 
         <activity android:name=".others.HistogramActivity"/>
+
+        <activity android:name=".others.ChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.AboutActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.BubbleChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.ColumnChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.ComboLineColumnChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.GoodBadChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.LineChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.LineColumnDependencyActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.PieChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.PreviewColumnChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.PreviewLineChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.SpeedChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.TempoChartActivity"/>
+        <activity android:name="cn.almsound.www.chartlibrary.activities.ViewPagerChartsActivity"/>
     </application>
 
 </manifest>
